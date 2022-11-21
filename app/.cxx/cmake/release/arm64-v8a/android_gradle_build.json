@@ -1,0 +1,55 @@
+{
+  "stringTable": {
+    "0": "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android26 --gcc-toolchain=/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dyolov5ncnn_EXPORTS -isystem /Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DNDEBUG -fPIC -fno-rtti -fno-exceptions"
+  },
+  "buildFiles": [
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/glslangTargets.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/SPIRVTargets-release.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/OSDependentTargets.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/OSDependentTargets-release.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/CMakeLists.txt",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/glslangTargets-release.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/SPIRVTargets.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/OGLCompilerTargets.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/ncnn/ncnn.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/platforms.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/compiler_id.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/arm64-v8a/lib/cmake/OGLCompilerTargets-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Release-arm64-v8a": {
+      "buildCommand": "/Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/arm64-v8a\" yolov5ncnn",
+      "buildType": "release",
+      "toolchain": "1920960832",
+      "abi": "arm64-v8a",
+      "artifactName": "yolov5ncnn",
+      "files": [
+        {
+          "src": "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/yolov5ncnn_jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/build/intermediates/cmake/release/obj/arm64-v8a/libyolov5ncnn.so"
+    }
+  },
+  "toolchains": {
+    "1920960832": {
+      "cppCompilerExecutable": "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

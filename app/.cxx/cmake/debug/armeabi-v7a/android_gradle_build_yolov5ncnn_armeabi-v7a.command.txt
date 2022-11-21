@@ -1,0 +1,7 @@
+Executable : /Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/debug/armeabi-v7a
+yolov5ncnn
+jvmArgs : 
+

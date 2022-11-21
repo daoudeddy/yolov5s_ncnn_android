@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/SPIRVTargets-release.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/OSDependentTargets.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/OGLCompilerTargets-release.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/ncnn/ncnn.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/CMakeLists.txt",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/ncnn/ncnn-release.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/ncnn/ncnnConfig.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/glslangTargets-release.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/platforms.cmake",
+    "/Users/kijin_seija/Library/Android/sdk/ndk/23.2.8568313/build/cmake/compiler_id.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/glslangTargets.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/OGLCompilerTargets.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/OSDependentTargets-release.cmake",
+    "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/src/main/jni/armeabi-v7a/lib/cmake/SPIRVTargets.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Release-armeabi-v7a": {
+      "artifactName": "yolov5ncnn",
+      "buildCommand": "/Users/kijin_seija/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/.cxx/cmake/release/armeabi-v7a\" yolov5ncnn",
+      "abi": "armeabi-v7a",
+      "output": "/Users/kijin_seija/Downloads/ncnn-android-yolov5-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libyolov5ncnn.so"
+    }
+  }
+}
